@@ -81,12 +81,14 @@
     [avatar setTapBlock:^(RCDraggableButton *avatar) {
         [[self.view viewWithTag:90] setHidden:YES];
         
+        NSLog(@"Taped");
+        
         [avatar moveToPoint:CGPointMake(avatar.center.x + 1, avatar.center.y - 1)];
     }];
     
-    [avatar setDoubleTapBlock:^(RCDraggableButton *avatar) {
-        [RCDraggableButton inView:self.view withTag:92 moveToPoint:CGPointMake(200, 400)];
-    }];
+//    [avatar setDoubleTapBlock:^(RCDraggableButton *avatar) {
+//        [RCDraggableButton inView:self.view withTag:92 moveToPoint:CGPointMake(200, 400)];
+//    }];
     
     [avatar setDraggingBlock:^(RCDraggableButton *avatar) {
         [[self.view viewWithTag:90] setHidden:NO];

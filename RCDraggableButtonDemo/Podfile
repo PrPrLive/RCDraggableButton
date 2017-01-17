@@ -1,5 +1,16 @@
-platform :ios, '6.0'
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
 
-xcodeproj 'RCDraggableButtonDemo'
+target 'RCDraggableButtonDemo' do
+  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+  # use_frameworks!
 
-pod 'RCDraggableButton', :path => '../'
+  # Pods for RCDraggableButtonDemo
+  pod 'RCDraggableButton', :path => '../'
+
+  target 'RCDraggableButtonDemoTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		230CAE16F2DA802DBE146E2A /* libPods-RCDraggableButtonDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A599B61FC2DB18762A6B2F7 /* libPods-RCDraggableButtonDemoTests.a */; };
 		6E3B110018A65EFA008F0888 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E3B10FF18A65EFA008F0888 /* Foundation.framework */; };
 		6E3B110218A65EFA008F0888 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E3B110118A65EFA008F0888 /* CoreGraphics.framework */; };
 		6E3B110418A65EFA008F0888 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E3B110318A65EFA008F0888 /* UIKit.framework */; };
@@ -22,7 +23,8 @@
 		6E3B112918A65EFA008F0888 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6E3B112718A65EFA008F0888 /* InfoPlist.strings */; };
 		6E3B112B18A65EFA008F0888 /* RCDraggableButtonDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E3B112A18A65EFA008F0888 /* RCDraggableButtonDemoTests.m */; };
 		6E3B113C18A66A8D008F0888 /* avatar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E3B113B18A66A8D008F0888 /* avatar@2x.png */; };
-		E71B6C1355CF48359ADDAF07 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 95A8D56F1FA34206853F3475 /* libPods.a */; };
+		B3E7EFEC1E2DE2E00024AE96 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3E7EFEB1E2DE2E00024AE96 /* Launch Screen.storyboard */; };
+		F76EA8DFD2A990171C2FF52E /* libPods-RCDraggableButtonDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DA51A6A9086F3CFECA0624D /* libPods-RCDraggableButtonDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		5FCC6717AD59413894DF7B06 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		0D5AE1B9281CEDB1E32A8B05 /* Pods-RCDraggableButtonDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RCDraggableButtonDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RCDraggableButtonDemoTests/Pods-RCDraggableButtonDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		1A599B61FC2DB18762A6B2F7 /* libPods-RCDraggableButtonDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RCDraggableButtonDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C607C97B4965E336F1973DF /* Pods-RCDraggableButtonDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RCDraggableButtonDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RCDraggableButtonDemo/Pods-RCDraggableButtonDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		2DA51A6A9086F3CFECA0624D /* libPods-RCDraggableButtonDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RCDraggableButtonDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E3B10FC18A65EFA008F0888 /* RCDraggableButtonDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RCDraggableButtonDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E3B10FF18A65EFA008F0888 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6E3B110118A65EFA008F0888 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -57,7 +62,10 @@
 		6E3B112818A65EFA008F0888 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6E3B112A18A65EFA008F0888 /* RCDraggableButtonDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCDraggableButtonDemoTests.m; sourceTree = "<group>"; };
 		6E3B113B18A66A8D008F0888 /* avatar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "avatar@2x.png"; sourceTree = "<group>"; };
+		81285360CCC09402D124A305 /* Pods-RCDraggableButtonDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RCDraggableButtonDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RCDraggableButtonDemoTests/Pods-RCDraggableButtonDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
 		95A8D56F1FA34206853F3475 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3E7EFEB1E2DE2E00024AE96 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		D17DA242030638A1716735B2 /* Pods-RCDraggableButtonDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RCDraggableButtonDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-RCDraggableButtonDemo/Pods-RCDraggableButtonDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,7 +76,7 @@
 				6E3B110218A65EFA008F0888 /* CoreGraphics.framework in Frameworks */,
 				6E3B110418A65EFA008F0888 /* UIKit.framework in Frameworks */,
 				6E3B110018A65EFA008F0888 /* Foundation.framework in Frameworks */,
-				E71B6C1355CF48359ADDAF07 /* libPods.a in Frameworks */,
+				F76EA8DFD2A990171C2FF52E /* libPods-RCDraggableButtonDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +87,7 @@
 				6E3B111F18A65EFA008F0888 /* XCTest.framework in Frameworks */,
 				6E3B112118A65EFA008F0888 /* UIKit.framework in Frameworks */,
 				6E3B112018A65EFA008F0888 /* Foundation.framework in Frameworks */,
+				230CAE16F2DA802DBE146E2A /* libPods-RCDraggableButtonDemoTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,7 +101,7 @@
 				6E3B112418A65EFA008F0888 /* RCDraggableButtonDemoTests */,
 				6E3B10FE18A65EFA008F0888 /* Frameworks */,
 				6E3B10FD18A65EFA008F0888 /* Products */,
-				5FCC6717AD59413894DF7B06 /* Pods.xcconfig */,
+				8DC85111F3469509D4B336DD /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -113,6 +122,8 @@
 				6E3B110318A65EFA008F0888 /* UIKit.framework */,
 				6E3B111E18A65EFA008F0888 /* XCTest.framework */,
 				95A8D56F1FA34206853F3475 /* libPods.a */,
+				2DA51A6A9086F3CFECA0624D /* libPods-RCDraggableButtonDemo.a */,
+				1A599B61FC2DB18762A6B2F7 /* libPods-RCDraggableButtonDemoTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -128,6 +139,7 @@
 				6E3B111718A65EFA008F0888 /* Images.xcassets */,
 				6E3B113B18A66A8D008F0888 /* avatar@2x.png */,
 				6E3B110618A65EFA008F0888 /* Supporting Files */,
+				B3E7EFEB1E2DE2E00024AE96 /* Launch Screen.storyboard */,
 			);
 			path = RCDraggableButtonDemo;
 			sourceTree = "<group>";
@@ -161,6 +173,17 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		8DC85111F3469509D4B336DD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1C607C97B4965E336F1973DF /* Pods-RCDraggableButtonDemo.debug.xcconfig */,
+				D17DA242030638A1716735B2 /* Pods-RCDraggableButtonDemo.release.xcconfig */,
+				81285360CCC09402D124A305 /* Pods-RCDraggableButtonDemoTests.debug.xcconfig */,
+				0D5AE1B9281CEDB1E32A8B05 /* Pods-RCDraggableButtonDemoTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -168,11 +191,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6E3B112E18A65EFB008F0888 /* Build configuration list for PBXNativeTarget "RCDraggableButtonDemo" */;
 			buildPhases = (
-				F5E1462FC3084B05B78A7480 /* Check Pods Manifest.lock */,
+				F5E1462FC3084B05B78A7480 /* [CP] Check Pods Manifest.lock */,
 				6E3B10F818A65EFA008F0888 /* Sources */,
 				6E3B10F918A65EFA008F0888 /* Frameworks */,
 				6E3B10FA18A65EFA008F0888 /* Resources */,
-				7F57E22104454A6194E34BEC /* Copy Pods Resources */,
+				7F57E22104454A6194E34BEC /* [CP] Copy Pods Resources */,
+				7D8633B4F40941C406CEE858 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -187,9 +211,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6E3B113118A65EFB008F0888 /* Build configuration list for PBXNativeTarget "RCDraggableButtonDemoTests" */;
 			buildPhases = (
+				ED50312FD2F9C8DE8D6B89EF /* [CP] Check Pods Manifest.lock */,
 				6E3B111918A65EFA008F0888 /* Sources */,
 				6E3B111A18A65EFA008F0888 /* Frameworks */,
 				6E3B111B18A65EFA008F0888 /* Resources */,
+				F84ECDE624723EBFDDA2D8D4 /* [CP] Embed Pods Frameworks */,
+				6BF1786A3193B8238CF9D61B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -211,6 +238,9 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = RidgeCorn;
 				TargetAttributes = {
+					6E3B10FB18A65EFA008F0888 = {
+						DevelopmentTeam = 4BZ2VM448J;
+					};
 					6E3B111C18A65EFA008F0888 = {
 						TestTargetID = 6E3B10FB18A65EFA008F0888;
 					};
@@ -243,6 +273,7 @@
 				6E3B111818A65EFA008F0888 /* Images.xcassets in Resources */,
 				6E3B110A18A65EFA008F0888 /* InfoPlist.strings in Resources */,
 				6E3B113C18A66A8D008F0888 /* avatar@2x.png in Resources */,
+				B3E7EFEC1E2DE2E00024AE96 /* Launch Screen.storyboard in Resources */,
 				6E3B111318A65EFA008F0888 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,34 +289,94 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		7F57E22104454A6194E34BEC /* Copy Pods Resources */ = {
+		6BF1786A3193B8238CF9D61B /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RCDraggableButtonDemoTests/Pods-RCDraggableButtonDemoTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		F5E1462FC3084B05B78A7480 /* Check Pods Manifest.lock */ = {
+		7D8633B4F40941C406CEE858 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RCDraggableButtonDemo/Pods-RCDraggableButtonDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7F57E22104454A6194E34BEC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RCDraggableButtonDemo/Pods-RCDraggableButtonDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED50312FD2F9C8DE8D6B89EF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F5E1462FC3084B05B78A7480 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F84ECDE624723EBFDDA2D8D4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RCDraggableButtonDemoTests/Pods-RCDraggableButtonDemoTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -421,12 +512,13 @@
 		};
 		6E3B112F18A65EFB008F0888 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5FCC6717AD59413894DF7B06 /* Pods.xcconfig */;
+			baseConfigurationReference = 1C607C97B4965E336F1973DF /* Pods-RCDraggableButtonDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 4BZ2VM448J;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RCDraggableButtonDemo/RCDraggableButtonDemo-Prefix.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/RCDraggableButtonDemo/RCDraggableButtonDemo-Info.plist";
@@ -438,12 +530,13 @@
 		};
 		6E3B113018A65EFB008F0888 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5FCC6717AD59413894DF7B06 /* Pods.xcconfig */;
+			baseConfigurationReference = D17DA242030638A1716735B2 /* Pods-RCDraggableButtonDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 4BZ2VM448J;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RCDraggableButtonDemo/RCDraggableButtonDemo-Prefix.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/RCDraggableButtonDemo/RCDraggableButtonDemo-Info.plist";
@@ -455,6 +548,7 @@
 		};
 		6E3B113218A65EFB008F0888 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81285360CCC09402D124A305 /* Pods-RCDraggableButtonDemoTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RCDraggableButtonDemo.app/RCDraggableButtonDemo";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -482,6 +576,7 @@
 		};
 		6E3B113318A65EFB008F0888 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D5AE1B9281CEDB1E32A8B05 /* Pods-RCDraggableButtonDemoTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RCDraggableButtonDemo.app/RCDraggableButtonDemo";
 				FRAMEWORK_SEARCH_PATHS = (

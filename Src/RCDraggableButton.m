@@ -153,6 +153,7 @@
     }
     
     UILongPressGestureRecognizer *longPressGestureRecognizer = [[UILongPressGestureRecognizer alloc] init];
+    longPressGestureRecognizer.minimumPressDuration = 0.05f;
     longPressGestureRecognizer.cancelsTouchesInView = NO;
     [longPressGestureRecognizer addTarget:self action:@selector(gestureRecognizerHandle:)];
     [longPressGestureRecognizer setAllowableMovement:0];
